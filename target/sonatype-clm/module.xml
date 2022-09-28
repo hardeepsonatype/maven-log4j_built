@@ -1,0 +1,45 @@
+<module formatVersion="1.0" id="com.sonatype:SimpleMavenProject:jar:2.3.0-SNAPSHOT" idKind="maven" pathname="/Users/hardeepatkar/Development/Maven Projects/maven-log4j">
+  <builderInfo>
+    <property name="clm.tool" value="maven"/>
+    <property name="clm.version" value="2.31.1-01"/>
+  </builderInfo>
+  <consumedArtifacts>
+    <artifact id="org.hibernate.validator:hibernate-validator:jar:6.1.2.Final" pathname="/Users/hardeepatkar/.m2/repository/org/hibernate/validator/hibernate-validator/6.1.2.Final/hibernate-validator-6.1.2.Final.jar" monitored="true"/>
+    <artifact id="jakarta.validation:jakarta.validation-api:jar:2.0.2" pathname="/Users/hardeepatkar/.m2/repository/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar" monitored="true"/>
+    <artifact id="org.jboss.logging:jboss-logging:jar:3.3.2.Final" pathname="/Users/hardeepatkar/.m2/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar" monitored="true"/>
+    <artifact id="com.fasterxml:classmate:jar:1.3.4" pathname="/Users/hardeepatkar/.m2/repository/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar" monitored="true"/>
+    <artifact id="junit:junit:jar:3.8.1" pathname="/Users/hardeepatkar/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar"/>
+    <artifact id="commons-fileupload:commons-fileupload:jar:1.0" pathname="/Users/hardeepatkar/.m2/repository/commons-fileupload/commons-fileupload/1.0/commons-fileupload-1.0.jar" monitored="true"/>
+    <artifact id="javax.mail:mailapi:jar:1.4.2" pathname="/Users/hardeepatkar/.m2/repository/javax/mail/mailapi/1.4.2/mailapi-1.4.2.jar" monitored="true"/>
+    <artifact id="javax.activation:activation:jar:1.1" pathname="/Users/hardeepatkar/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar" monitored="true"/>
+    <artifact id="net.sf.ehcache:ehcache:jar:2.10.4" pathname="/Users/hardeepatkar/.m2/repository/net/sf/ehcache/ehcache/2.10.4/ehcache-2.10.4.jar" monitored="true"/>
+    <artifact id="org.slf4j:slf4j-api:jar:1.7.7" pathname="/Users/hardeepatkar/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar" monitored="true"/>
+    <artifact id="org.apache.logging.log4j:log4j-core:jar:2.10.0" pathname="/Users/hardeepatkar/.m2/repository/org/apache/logging/log4j/log4j-core/2.10.0/log4j-core-2.10.0.jar" monitored="true"/>
+    <artifact id="org.apache.logging.log4j:log4j-api:jar:2.10.0" pathname="/Users/hardeepatkar/.m2/repository/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar" monitored="true"/>
+    <artifact id="log4j:log4j:jar:1.2.17" pathname="/Users/hardeepatkar/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar" monitored="true"/>
+  </consumedArtifacts>
+  <dependencies>
+    <dependency id="org.hibernate.validator:hibernate-validator:jar:6.1.2.Final" pathname="/Users/hardeepatkar/.m2/repository/org/hibernate/validator/hibernate-validator/6.1.2.Final/hibernate-validator-6.1.2.Final.jar" direct="true">
+      <dependency id="jakarta.validation:jakarta.validation-api:jar:2.0.2"/>
+      <dependency id="org.jboss.logging:jboss-logging:jar:3.3.2.Final"/>
+      <dependency id="com.fasterxml:classmate:jar:1.3.4"/>
+    </dependency>
+    <dependency id="jakarta.validation:jakarta.validation-api:jar:2.0.2" pathname="/Users/hardeepatkar/.m2/repository/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar"/>
+    <dependency id="org.jboss.logging:jboss-logging:jar:3.3.2.Final" pathname="/Users/hardeepatkar/.m2/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar"/>
+    <dependency id="com.fasterxml:classmate:jar:1.3.4" pathname="/Users/hardeepatkar/.m2/repository/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar"/>
+    <dependency id="commons-fileupload:commons-fileupload:jar:1.0" pathname="/Users/hardeepatkar/.m2/repository/commons-fileupload/commons-fileupload/1.0/commons-fileupload-1.0.jar" direct="true"/>
+    <dependency id="javax.mail:mailapi:jar:1.4.2" pathname="/Users/hardeepatkar/.m2/repository/javax/mail/mailapi/1.4.2/mailapi-1.4.2.jar" direct="true">
+      <dependency id="javax.activation:activation:jar:1.1"/>
+    </dependency>
+    <dependency id="javax.activation:activation:jar:1.1" pathname="/Users/hardeepatkar/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar"/>
+    <dependency id="net.sf.ehcache:ehcache:jar:2.10.4" pathname="/Users/hardeepatkar/.m2/repository/net/sf/ehcache/ehcache/2.10.4/ehcache-2.10.4.jar" direct="true">
+      <dependency id="org.slf4j:slf4j-api:jar:1.7.7"/>
+    </dependency>
+    <dependency id="org.slf4j:slf4j-api:jar:1.7.7" pathname="/Users/hardeepatkar/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar"/>
+    <dependency id="org.apache.logging.log4j:log4j-core:jar:2.10.0" pathname="/Users/hardeepatkar/.m2/repository/org/apache/logging/log4j/log4j-core/2.10.0/log4j-core-2.10.0.jar" direct="true">
+      <dependency id="org.apache.logging.log4j:log4j-api:jar:2.10.0"/>
+    </dependency>
+    <dependency id="org.apache.logging.log4j:log4j-api:jar:2.10.0" pathname="/Users/hardeepatkar/.m2/repository/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar"/>
+    <dependency id="log4j:log4j:jar:1.2.17" pathname="/Users/hardeepatkar/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar" direct="true"/>
+  </dependencies>
+</module>
